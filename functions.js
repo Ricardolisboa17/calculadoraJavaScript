@@ -22,6 +22,7 @@ function btn1(){
             valorA = "1" 
             document.getElementById("campo").value = valorA;
         }else{ 
+            
             valorA = valorA + "1"; 
             var el = document.getElementById("campo").value;
             document.getElementById("campo").value = valorA;
