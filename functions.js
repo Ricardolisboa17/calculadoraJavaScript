@@ -2,7 +2,6 @@ var valorA = "";
 var valorB = "";
 var valorOperacao = "";
 var valorResultado = "";
-var display = "";
 var boolA = true;
 
 function btnLimpar(){
@@ -22,7 +21,6 @@ function btn1(){
             valorA = "1" 
             document.getElementById("campo").value = valorA;
         }else{ 
-            
             valorA = valorA + "1"; 
             var el = document.getElementById("campo").value;
             document.getElementById("campo").value = valorA;
@@ -58,6 +56,7 @@ function btn2(){
         }
     }
     else{
+        boolA = false;
         if(valorB == ""){
             valorB = "2"
             var el = document.getElementById("campo").value;
@@ -84,6 +83,7 @@ function btn3(){
     }
     else{
         if(valorB == ""){
+            boolA = false;
             valorB = "3"
             var el = document.getElementById("campo").value;
             document.getElementById("campo").value = el + valorB; 
@@ -109,6 +109,7 @@ function btn4(){
     }
     else{
         if(valorB == ""){
+            boolA = false;
             valorB = "4"
             var el = document.getElementById("campo").value;
             document.getElementById("campo").value = el + valorB; 
@@ -134,6 +135,7 @@ function btn5(){
     }
     else{
         if(valorB == ""){
+            boolA = false;
             valorB = "5"
             var el = document.getElementById("campo").value;
             document.getElementById("campo").value = el + valorB; 
@@ -158,6 +160,7 @@ function btn6(){
     }
     else{
         if(valorB == ""){
+            boolA = false;
             valorB = "6"
             var el = document.getElementById("campo").value;
             document.getElementById("campo").value = el + valorB; 
@@ -182,6 +185,7 @@ function btn7(){
     }
     else{
         if(valorB == ""){
+            boolA = false;
             valorB = "7"
             var el = document.getElementById("campo").value;
             document.getElementById("campo").value = el + valorB; 
@@ -206,6 +210,7 @@ function btn8(){
     }
     else{
         if(valorB == ""){
+            boolA = false;
             valorB = "8"
             var el = document.getElementById("campo").value;
             document.getElementById("campo").value = el + valorB; 
@@ -230,6 +235,7 @@ function btn9(){
     }
     else{
         if(valorB == ""){
+            boolA = false;
             valorB = "9"
             var el = document.getElementById("campo").value;
             document.getElementById("campo").value = el + valorB; 
@@ -254,6 +260,7 @@ function btn0(){
     }
     else{
         if(valorB == ""){
+            boolA = false;
             valorB = "0"
             var el = document.getElementById("campo").value;
             document.getElementById("campo").value = el + valorB; 
